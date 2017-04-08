@@ -1,4 +1,24 @@
 {
+  "name": "hive-game-client",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Provides a base network client for interacting with hive-game-server servers",
+  "author": "Jack Preston <unwttng@gmail.com>",
+  "contributors": [
+    "Jack Preston <unwttng@gmail.com>"
+  ],
+  "keywords": [
+    "hive",
+    "game",
+    "strategy"
+  ],
+  "main": "client.js",
+  "repository": "https://github.com/unwitting/hive-game-client",
+  "homepage": "https://github.com/unwitting/hive-game-client",
+  "bugs": "https://github.com/unwitting/hive-game-client/issues",
+  "engines": {
+    "node": ">=7.6"
+  },
   "dependencies": {
     "lodash": "^4.17.4",
     "peasy-log": "^1.0.2",

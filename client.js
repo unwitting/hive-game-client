@@ -4,7 +4,7 @@ const { Board } = require('hive-game-core')
 const request = require('request-promise-native')
 const uuid = require('uuid/v4')
 
-const GAME_HOST = 'http://prod-hive-game-server-1259273739.eu-west-1.elb.amazonaws.com'
+const GAME_HOST = 'http://174.138.62.73:8001'
 
 class Client {
 
